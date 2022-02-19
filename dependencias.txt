@@ -1,2 +1,0 @@
-DEPENDENCIA: flutter_modular
-SAIBA MAIS EM: https://pub.dev/packages/flutter_modular
