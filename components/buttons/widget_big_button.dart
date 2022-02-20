@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class BigButton extends StatefulWidget{ 
@@ -35,15 +34,14 @@ class BigButtonState extends State<BigButton>{
         ),
         width: double.infinity,    
         decoration: BoxDecoration( 
-          color: Colors.white,
-          border: Border.all( width: 0.5, color: Color.fromARGB(255, 185, 185, 185) ), 
+          color: Colors.white
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,  
           children: [ 
             Icon(
               widget.icon, 
-              size: 28
+              size: 26
             ),
             Container( 
               margin: EdgeInsets.only( top: 10 ),
